@@ -14,6 +14,8 @@ class Retangulo{
 
 let quadrado = new Retangulo("10" , "10")
 let retangulo = new Retangulo("60" , "30")
+let penta = new Retangulo("90" , "30")
 
 console.log(quadrado.calcularArea())
-retangulo.calcularArea()
+console.log(retangulo.calcularArea())
+console.log(penta.calcularArea())
